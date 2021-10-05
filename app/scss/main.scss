@@ -1,5 +1,37 @@
-.test {
-	border: 1px solid black;
-	width: 100px;
-	height: 100px;
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#om {
+	/** GLÖM INTE LÄGGA HEADER INNANFÖR #OM **/
+	.om-wrapper {
+		border: 1px solid black;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+#usp {
+	.usp-wrapper {
+		border: 1px solid black;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+#products {
+	.products {
+		border: 1px solid black;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+#footer {
+	.footer-wrapper {
+		border: 1px solid black;
+		width: 50px;
+		height: 50px;
+	}
 }
