@@ -1,0 +1,33 @@
+{
+	"name": "kaffekoppen",
+	"version": "1.0.0",
+	"description": "Grupparbete",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/19ozman/kaffekoppen.git"
+	},
+	"keywords": [
+		"kaffe",
+		"enkelt",
+		"snabbt",
+		"hemleverans"
+	],
+	"author": "oscar filip amir",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/19ozman/kaffekoppen/issues"
+	},
+	"homepage": "https://github.com/19ozman/kaffekoppen#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"browser-sync": "^2.27.5",
+		"gulp": "^4.0.2",
+		"gulp-csso": "^4.0.1",
+		"gulp-sass": "^5.0.0",
+		"node-sass": "^6.0.1"
+	}
+}
