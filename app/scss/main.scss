@@ -1,37 +1,120 @@
 body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.om-wrapper {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
 }
 
-#om {
-	/** GLÖM INTE LÄGGA HEADER INNANFÖR #OM **/
-	.om-wrapper {
-		border: 1px solid black;
-		width: 50px;
-		height: 50px;
-	}
-}
-
-#usp {
-	.usp-wrapper {
-		border: 1px solid black;
-		width: 50px;
-		height: 50px;
-	}
+.usp-wrapper {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
 }
 
 #products {
-	.products {
-		border: 1px solid black;
-		width: 50px;
-		height: 50px;
+	display: flex;
+	flex-wrap: column-wrap;
+	justify-content: center;
+
+	.prod-card-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 2%;
+		flex: 1 96%;
+		background-color: #ffe9d1;
+		border: 1px solid red;
+	}
+
+	.prod-card {
+		display: flex;
+		flex-direction: column;
+		background-color: #fff;
+		padding: 2%;
+		flex: 1 54%;
+		text-align: center;
+		align-items: center;
+		border: 1px solid red;
+	}
+
+	.prod-image img {
+		max-width: 80%;
+	}
+
+	.prod-info {
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		width: 70%;
+		background-color: #fff;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	// h5 {
+	// 	margin-left: 5%;
+	// }
+	i {
+		margin-left: 5%;
+	}
+
+	a {
+		color: #404040;
+	}
+
+	.fas {
+		font-size: 1.4em;
+		margin-left: 10%;
 	}
 }
 
-#footer {
-	.footer-wrapper {
-		border: 1px solid black;
-		width: 50px;
-		height: 50px;
+@media screen and (min-width: 768px) {
+	.prod-card-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 2%;
+		flex: 1 %;
+		background-color: #ffe9d1;
+		border: 1px solid red;
 	}
+
+	.prod-card {
+		display: flex;
+		flex-direction: column;
+		background-color: #fff;
+		padding: 2%;
+		flex: 1 26%;
+		text-align: center;
+		align-items: center;
+		border: 1px solid red;
+	}
+
+	.prod-image img {
+		max-width: 80%;
+	}
+
+	.prod-info {
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		width: 70%;
+		background-color: #fff;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+.footer-wrapper {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
 }

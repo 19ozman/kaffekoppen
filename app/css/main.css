@@ -1,5 +1,91 @@
-.test {
-	border: 1px solid black;
-	width: 100px;
-	height: 100px;
-}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.om-wrapper {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px; }
+
+.usp-wrapper {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px; }
+
+#products {
+  display: flex;
+  flex-wrap: column-wrap;
+  justify-content: center; }
+  #products .prod-card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    flex: 1 96%;
+    background-color: #ffe9d1;
+    border: 1px solid red; }
+  #products .prod-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2%;
+    flex: 1 54%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid red; }
+  #products .prod-image img {
+    max-width: 80%; }
+  #products .prod-info {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 70%;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center; }
+  #products i {
+    margin-left: 5%; }
+  #products a {
+    color: #404040; }
+  #products .fas {
+    font-size: 1.4em;
+    margin-left: 10%; }
+
+@media screen and (min-width: 768px) {
+  .prod-card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    flex: 1 29%;
+    background-color: #ffe9d1;
+    border: 1px solid red; }
+  .prod-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2%;
+    flex: 1 26%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid red; }
+  .prod-image img {
+    max-width: 80%; }
+  .prod-info {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 70%;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center; } }
+
+.footer-wrapper {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px; }
