@@ -80,19 +80,15 @@ a {
 	flex-direction: column;
 	gap: 20px;
 	padding: 2% 2%;
-		
-	
-	
 
 	.usp-box {
-		
 		width: 96%;
 		background-color: rgb(206, 229, 208);
-		
+
 		display: flex;
 		flex-direction: column;
 		gap: 2px;
-		
+
 		padding: 2% 2%;
 
 		align-items: center;
@@ -108,8 +104,6 @@ a {
 			margin-bottom: 0px;
 			text-align: center;
 		}
-
-		
 	}
 }
 
@@ -124,7 +118,7 @@ a {
 		justify-content: center;
 		align-items: center;
 		padding: 2%;
-		flex: 1 96%;
+		flex: 1 29%;
 		background-color: #ffe9d1;
 		border: 1px solid red;
 		gap: 50px;
@@ -135,7 +129,7 @@ a {
 		flex-direction: column;
 		background-color: #fff;
 		padding: 2%;
-		flex: 1 54%;
+		flex: 1 29%;
 		text-align: center;
 		align-items: center;
 		border: 1px solid red;
@@ -193,7 +187,7 @@ a {
 		justify-content: center;
 		align-items: center;
 		padding: 2%;
-		flex: 1 26%;
+		flex: 1 46%;
 		background-color: #ffe9d1;
 	}
 
@@ -202,7 +196,7 @@ a {
 		flex-direction: column;
 		background-color: #fff;
 		padding: 2%;
-		flex: 1 26%;
+		flex: 1 29%;
 		text-align: center;
 		align-items: center;
 		border: 1px solid red;
