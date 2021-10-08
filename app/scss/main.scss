@@ -173,10 +173,11 @@ a {
 
 	.prod-bild-wrap {
 		display: flex;
-		flex-wrap: wrap;
+		// flex-wrap: column-wrap;
 		justify-content: center;
 		padding: 4%;
 		width: 88%;
+		flex: 1 20%;
 	}
 
 	.prod-text-wrap {
@@ -185,15 +186,17 @@ a {
 		margin-left: 2%;
 	}
 
-	// .cart-container {
-	// 	padding: 10px;
-	// 	border: 1px solid red;
-	// 	width: 40%;
-	// 	height: 35%;
-	// 	background-color: #ffffff;
-	// 	border-radius: 20px;
-	// 	box-shadow: 0px 25px 40px #1687d933;
-	// }
+	.cart-container {
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+		border: 1px solid red;
+		width: 40%;
+		height: 35%;
+		background-color: #ffffff;
+		border-radius: 20px;
+		box-shadow: 0px 25px 40px #1687d933;
+	}
 
 	img.respons {
 		float: left;
@@ -206,10 +209,62 @@ a {
 	}
 }
 
-.footer-wrapper {
-	border: 1px solid black;
-	width: 50px;
-	height: 50px;
+/*----FOOTER----*/
+.footer-con {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	background-color: #f7d69c1f;
+
+	.address-con,
+	.contact-con,
+	.some-con {
+		width: 30%;
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		line-height: 25px;
+		margin: 10px;
+
+		h3 {
+			width: 100%;
+			text-align: center;
+		}
+
+		h3,
+		p,
+		a,
+		.fab {
+			font-size: 1.5rem;
+			color: #5e454b;
+		}
+
+		h3 {
+			color: #f7d59c;
+		}
+
+		p,
+		a,
+		.fab {
+			color: #5e454b;
+		}
+		.fab {
+			text-align: start;
+			margin-right: 10px;
+		}
+	}
+	.b-footer {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
 }
 
 /** QUERIES FÖR 768 PX **/
@@ -273,6 +328,26 @@ a {
 
 		.prod-card-wrapper {
 			flex: 1 26%;
+		}
+	}
+
+	.footer-con {
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+
+		.address-con,
+		.contact-con,
+		.some-con {
+			justify-content: center;
+			padding: 20px;
+		}
+		.b-footer {
+			margin-bottom: 20px;
 		}
 	}
 }
