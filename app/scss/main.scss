@@ -108,20 +108,15 @@ a {
 }
 
 #products {
-	display: flex;
-	flex-wrap: column-wrap;
-	justify-content: center;
-
 	.prod-card-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		padding: 2%;
-		flex: 1 29%;
+		flex: 1 94%;
 		background-color: #ffe9d1;
-		border: 1px solid red;
-		gap: 50px;
+		gap: 30px;
 	}
 
 	.prod-card {
@@ -129,10 +124,10 @@ a {
 		flex-direction: column;
 		background-color: #fff;
 		padding: 2%;
-		flex: 1 29%;
+		flex: 1 94%;
 		text-align: center;
 		align-items: center;
-		border: 1px solid red;
+		border-radius: 2px;
 	}
 
 	.prod-image img {
@@ -140,7 +135,6 @@ a {
 	}
 
 	.prod-info {
-		border: 1px solid red;
 		display: flex;
 		flex-direction: row;
 		margin-top: 10px;
@@ -150,9 +144,6 @@ a {
 		align-items: center;
 	}
 
-	// h5 {
-	// 	margin-left: 5%;
-	// }
 	i {
 		margin-left: 5%;
 	}
@@ -167,54 +158,53 @@ a {
 	}
 }
 
-/** QUERIES FÖR USP **/
+#products-html {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
 
-@media screen and (min-width: 768px) {
-	.usp-wrapper {
-		flex-direction: row;
-	}
-	.usp-box {
-		width: 33%;
-	}
-}
+	// .prod-info-bildtext {
+	// 	display: flex;
+	// 	justify-content: center;
+	// }
 
-/** QUERIES FÖR PRODUKTER **/
-
-@media screen and (min-width: 768px) {
-	.prod-card-wrap {
+	.prod-bild-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		align-items: center;
-		padding: 2%;
-		flex: 1 46%;
-		background-color: #ffe9d1;
+		// border: 1px solid rgb(230, 195, 0);
+		padding: 4%;
+		width: 88%;
 	}
 
-	.prod-card {
+	.prod-text-wrap {
 		display: flex;
 		flex-direction: column;
-		background-color: #fff;
-		padding: 2%;
-		flex: 1 29%;
-		text-align: center;
-		align-items: center;
-		border: 1px solid red;
+		margin-left: 2%;
 	}
 
-	.prod-image img {
-		max-width: 80%;
+	.cart-container {
+		justify-content: center;
+		padding: 10px;
+		border: 1px solid red;
+		width: 20%;
+		height: 35%;
+		background-color: #ffffff;
+		border-radius: 20px;
+		box-shadow: 0px 25px 40px #1687d933;
 	}
 
-	.prod-info {
-		border: 1px solid red;
-		display: flex;
-		flex-direction: row;
-		margin-top: 10px;
-		width: 70%;
-		background-color: #fff;
-		justify-content: space-around;
-		align-items: center;
+	img.respons {
+		float: left;
+		width: 40%;
+	}
+
+	p {
+		font-size: 0.8rem;
+		white-space: pre-line;
 	}
 }
 
@@ -223,6 +213,28 @@ a {
 	width: 50px;
 	height: 50px;
 }
+
+/** QUERIES FÖR 768 PX **/
+
+@media screen and (min-width: 768px) {
+	.usp-wrapper {
+		flex-direction: row;
+	}
+	.usp-box {
+		width: 33%;
+	}
+	#products {
+		.prod-card {
+			flex: 1 44%;
+		}
+
+		.prod-card-wrapper {
+			flex: 1 44%;
+		}
+	}
+}
+
+/** QUERIES FÖR PRODUKTER **/
 
 @media screen and (min-width: 1024px) {
 	/*----NAV-DESKTOP----*/
@@ -255,5 +267,14 @@ a {
 	}
 	#shop {
 		width: 20% !important;
+	}
+	#products {
+		.prod-card {
+			flex: 1 26%;
+		}
+
+		.prod-card-wrapper {
+			flex: 1 26%;
+		}
 	}
 }

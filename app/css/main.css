@@ -76,91 +76,98 @@ a {
       margin-bottom: 0px;
       text-align: center; }
 
-#products {
+#products .prod-card-wrap {
   display: flex;
-  flex-wrap: column-wrap;
-  justify-content: center; }
-  #products .prod-card-wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  flex: 1 94%;
+  background-color: #ffe9d1;
+  gap: 30px; }
+
+#products .prod-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2%;
+  flex: 1 94%;
+  text-align: center;
+  align-items: center;
+  border-radius: 2px; }
+
+#products .prod-image img {
+  max-width: 80%; }
+
+#products .prod-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 70%;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center; }
+
+#products i {
+  margin-left: 5%; }
+
+#products a {
+  color: #404040; }
+
+#products .fas {
+  font-size: 1.4em;
+  margin-left: 10%; }
+
+#products-html {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%; }
+  #products-html .prod-bild-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding: 2%;
-    flex: 1 29%;
-    background-color: #ffe9d1;
-    border: 1px solid red;
-    gap: 50px; }
-  #products .prod-card {
+    padding: 4%;
+    width: 88%; }
+  #products-html .prod-text-wrap {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    padding: 2%;
-    flex: 1 29%;
-    text-align: center;
-    align-items: center;
-    border: 1px solid red; }
-  #products .prod-image img {
-    max-width: 80%; }
-  #products .prod-info {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    width: 70%;
-    background-color: #fff;
-    justify-content: space-around;
-    align-items: center; }
-  #products i {
-    margin-left: 5%; }
-  #products a {
-    color: #404040; }
-  #products .fas {
-    font-size: 1.4em;
-    margin-left: 10%; }
-
-/** QUERIES FÖR USP **/
-@media screen and (min-width: 768px) {
-  .usp-wrapper {
-    flex-direction: row; }
-  .usp-box {
-    width: 33%; } }
-
-/** QUERIES FÖR PRODUKTER **/
-@media screen and (min-width: 768px) {
-  .prod-card-wrap {
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 2%; }
+  #products-html .cart-container {
     justify-content: center;
-    align-items: center;
-    padding: 2%;
-    flex: 1 46%;
-    background-color: #ffe9d1; }
-  .prod-card {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 2%;
-    flex: 1 29%;
-    text-align: center;
-    align-items: center;
-    border: 1px solid red; }
-  .prod-image img {
-    max-width: 80%; }
-  .prod-info {
+    padding: 10px;
     border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    width: 70%;
-    background-color: #fff;
-    justify-content: space-around;
-    align-items: center; } }
+    width: 20%;
+    height: 35%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933; }
+  #products-html img.respons {
+    float: left;
+    width: 40%; }
+  #products-html p {
+    font-size: 0.8rem;
+    white-space: pre-line; }
 
 .footer-wrapper {
   border: 1px solid black;
   width: 50px;
   height: 50px; }
 
+/** QUERIES FÖR 768 PX **/
+@media screen and (min-width: 768px) {
+  .usp-wrapper {
+    flex-direction: row; }
+  .usp-box {
+    width: 33%; }
+  #products .prod-card {
+    flex: 1 44%; }
+  #products .prod-card-wrapper {
+    flex: 1 44%; } }
+
+/** QUERIES FÖR PRODUKTER **/
 @media screen and (min-width: 1024px) {
   /*----NAV-DESKTOP----*/
   .logo {
@@ -180,4 +187,8 @@ a {
   .slogan {
     font-size: 4rem !important; }
   #shop {
-    width: 20% !important; } }
+    width: 20% !important; }
+  #products .prod-card {
+    flex: 1 26%; }
+  #products .prod-card-wrapper {
+    flex: 1 26%; } }
