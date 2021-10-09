@@ -1,4 +1,12 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 12px; }
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -258,7 +266,7 @@ a {
     height: 200px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end; }
     .footer-con .address-con,
@@ -267,4 +275,4 @@ a {
       justify-content: center;
       padding: 20px; }
     .footer-con .b-footer {
-      margin-bottom: 20px; } }
+      margin-bottom: 50px; } }
