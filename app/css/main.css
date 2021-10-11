@@ -51,6 +51,7 @@ a {
       background-color: #f7d59c;
       color: #5e454b; }
 
+/** USP USP USP USP USP **/
 .usp-wrapper {
   box-sizing: border-box;
   width: 100%;
@@ -76,6 +77,7 @@ a {
       margin-bottom: 0px;
       text-align: center; }
 
+/** USP USP USP USP USP **/
 /** PRODUKTER PRODUKTER PRODUKTER **/
 h3.h3 {
   text-align: center;
@@ -139,7 +141,7 @@ h3.h3 {
   font-weight: 600; }
 
 /** PRODUKTER PRODUKTER PRODUKTER **/
-/*----FOOTER----*/
+/** FOOTER FOOTER FOOTER **/
 .footer-con {
   width: 100%;
   height: 400px;
@@ -204,18 +206,15 @@ h3.h3 {
     margin-top: 50px;
     margin-bottom: 20px; }
 
+/** FOOTER FOOTER FOOTER **/
 /** QUERIES FÖR 768 PX **/
 @media screen and (min-width: 768px) {
   .usp-wrapper {
     flex-direction: row; }
   .usp-box {
-    width: 33%; }
-  #products .prod-card {
-    flex: 1 44%; }
-  #products .prod-card-wrapper {
-    flex: 1 44%; } }
+    width: 33%; } }
 
-/** QUERIES FÖR PRODUKTER **/
+/** QUERIES FÖR 1024 PX **/
 @media screen and (min-width: 1024px) {
   /*----NAV-DESKTOP----*/
   .logo {
@@ -231,7 +230,8 @@ h3.h3 {
       font-size: 1.5rem; }
       ul li a:hover {
         border-bottom: 3px solid #cee5d0; }
-  /*----HERO-DESKTOP----*/
+  /** QUERIES FÖR 1024 PX **/
+  /** HERO DESKTOP HERO DESKTOP **/
   .slogan {
     font-size: 4rem !important; }
   #shop {
@@ -255,3 +255,5 @@ h3.h3 {
       padding: 20px; }
     .footer-con .b-footer {
       margin-bottom: 20px; } }
+
+/** HERO DESKTOP HERO DESKTOP **/

@@ -69,8 +69,7 @@ a {
 	}
 }
 
-// .om-wrapper {
-// }
+/** USP USP USP USP USP **/
 
 .usp-wrapper {
 	box-sizing: border-box;
@@ -106,6 +105,8 @@ a {
 		}
 	}
 }
+
+/** USP USP USP USP USP **/
 
 /** PRODUKTER PRODUKTER PRODUKTER **/
 
@@ -183,109 +184,8 @@ h3.h3 {
 
 /** PRODUKTER PRODUKTER PRODUKTER **/
 
-// #products {
-// 	.prod-card-wrap {
-// 		display: flex;
-// 		flex-wrap: wrap;
-// 		justify-content: center;
-// 		align-items: center;
-// 		padding: 2%;
-// 		flex: 1 94%;
-// 		background-color: #ffe9d1;
-// 		gap: 30px;
-// 	}
+/** FOOTER FOOTER FOOTER **/
 
-// 	.prod-card {
-// 		display: flex;
-// 		flex-direction: column;
-// 		background-color: #fff;
-// 		padding: 2%;
-// 		flex: 1 94%;
-// 		text-align: center;
-// 		align-items: center;
-// 		border-radius: 2px;
-// 	}
-
-// 	.prod-image img {
-// 		max-width: 80%;
-// 	}
-
-// 	.prod-info {
-// 		display: flex;
-// 		flex-direction: row;
-// 		margin-top: 10px;
-// 		width: 70%;
-// 		background-color: #fff;
-// 		justify-content: space-around;
-// 		align-items: center;
-// 	}
-
-// 	i {
-// 		margin-left: 5%;
-// 	}
-
-// 	a {
-// 		color: #404040;
-// 	}
-
-// 	.fas {
-// 		font-size: 1.4em;
-// 		margin-left: 10%;
-// 	}
-// }
-
-// #products-html {
-// 	display: flex;
-// 	flex-direction: column;
-// 	box-sizing: border-box;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-top: 5%;
-
-// 	.prod-info-bildtext {
-// 		display: flex;
-// 		justify-content: center;
-// 	}
-
-// 	.prod-bild-wrap {
-// 		display: flex;
-// 		// flex-wrap: column-wrap;
-// 		justify-content: center;
-// 		padding: 4%;
-// 		width: 88%;
-// 		flex: 1 20%;
-// 	}
-
-// 	.prod-text-wrap {
-// 		display: flex;
-// 		flex-direction: column;
-// 		margin-left: 2%;
-// 	}
-
-// 	.cart-container {
-// 		display: flex;
-// 		justify-content: center;
-// 		padding: 10px;
-// 		border: 1px solid red;
-// 		width: 40%;
-// 		height: 35%;
-// 		background-color: #ffffff;
-// 		border-radius: 20px;
-// 		box-shadow: 0px 25px 40px #1687d933;
-// 	}
-
-// 	img.respons {
-// 		float: left;
-// 		width: 40%;
-// 	}
-
-// 	p {
-// 		font-size: 0.8rem;
-// 		white-space: pre-line;
-// 	}
-// }
-
-/*----FOOTER----*/
 .footer-con {
 	width: 100%;
 	height: 400px;
@@ -343,6 +243,8 @@ h3.h3 {
 	}
 }
 
+/** FOOTER FOOTER FOOTER **/
+
 /** QUERIES FÖR 768 PX **/
 
 @media screen and (min-width: 768px) {
@@ -352,18 +254,9 @@ h3.h3 {
 	.usp-box {
 		width: 33%;
 	}
-	#products {
-		.prod-card {
-			flex: 1 44%;
-		}
-
-		.prod-card-wrapper {
-			flex: 1 44%;
-		}
-	}
 }
 
-/** QUERIES FÖR PRODUKTER **/
+/** QUERIES FÖR 1024 PX **/
 
 @media screen and (min-width: 1024px) {
 	/*----NAV-DESKTOP----*/
@@ -389,7 +282,9 @@ h3.h3 {
 		}
 	}
 
-	/*----HERO-DESKTOP----*/
+	/** QUERIES FÖR 1024 PX **/
+
+	/** HERO DESKTOP HERO DESKTOP **/
 
 	.slogan {
 		font-size: 4rem !important;
@@ -427,3 +322,5 @@ h3.h3 {
 		}
 	}
 }
+
+/** HERO DESKTOP HERO DESKTOP **/
