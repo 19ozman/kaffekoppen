@@ -112,10 +112,6 @@ i {
   display: block;
   position: relative; }
 
-.product-grid li a:hover {
-  color: #fff;
-  background-color: #ef5777; }
-
 .product-grid .product-content {
   background-color: #fff;
   text-align: center; }
@@ -127,9 +123,6 @@ i {
 
 .product-grid .title a {
   color: #828282; }
-
-.product-grid a:hover {
-  color: #ef5777; }
 
 .product-grid .price {
   color: #333;
