@@ -147,12 +147,31 @@ i {
 
 /** PRODUKTER PRODUKTER PRODUKTER **/
 /** PRODUKTSIDA PRODUKTSIDA PRODUKTSIDA **/
-.product-image .pic-info {
-  width: 30%; }
+h3.h3-info {
+  text-align: left;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 2px; }
 
-p {
+p.prod-info {
+  text-align: left;
   font-size: 0.9em;
-  padding: 20px; }
+  padding: 10px;
+  margin: 1px;
+  line-height: 1.5em; }
+
+.products-grid-info {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding: 0 0 20px;
+  position: relative;
+  margin: 30px; }
+
+.btn {
+  margin: 10px; }
+
+.pic-info {
+  width: 25%; }
 
 /** PRODUKTSIDA PRODUKTSIDA PRODUKTSIDA **/
 /** FOOTER FOOTER FOOTER **/
