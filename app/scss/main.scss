@@ -280,6 +280,17 @@ p.prod-info {
 
 /** FOOTER FOOTER FOOTER **/
 
+/** CONFIRMATION CONFIRMATION **/
+
+.fa-2x {
+color: black;
+justify-content: center;
+text-align: center;
+font-size: 2rem;
+}
+
+/** CONFIRMATION CONFIRMATION **/
+
 /** QUERIES FÖR 768 PX **/
 
 @media screen and (min-width: 768px) {
@@ -377,15 +388,20 @@ p.prod-info {
 	margin-bottom: 80px;
     
 }
-header{
+.tack{
     
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     font-family: "Crimson Text", serif;
-
 }
+
+.fas-tack {
+	color: black;
+	
+}
+
 
 .order-box{
     width: 90%;
@@ -397,13 +413,27 @@ header{
     padding: 50px 50px;
     background-color: rgb(206, 229, 208);
 
-    font-family: "Crimson Text", serif;
-    font-size: 1.2rem;
+    
+}
+p.textt{
+	font-family: "Crimson Text", serif;
+	font-size: 1.7rem;
 
 }
-h3{
+h1.h1-rubrik{
+	font-size: 35px;
+}
+.check-icon{
+	font-size: 50px;
+}
+h3.confirm{
     text-align: center;
     font-family: "Crimson Text", serif;
+	font-size: 2rem;
+}
+.table{
+	font-size: 1.5rem;
+	font-family: "Crimson Text", serif;
 }
 .wrapperr{
     width: 90%;
@@ -446,3 +476,4 @@ h3{
     height: 250px;
 }
     
+/* STYLING FÖR TACKSIDA*/
