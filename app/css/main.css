@@ -282,6 +282,12 @@ p.prod-info {
     border: 1px solid red; }
 
 /** FOOTER FOOTER FOOTER **/
+/** CHECKOUT CHECKOUT CHECKOUT **/
+.check-cart {
+  text-align: center;
+  font-size: 2rem; }
+
+/** CHECKOUT CHECKOUT CHECKOUT **/
 /** CONFIRMATION CONFIRMATION **/
 .check-icon {
   margin-top: 10px; }
@@ -356,7 +362,7 @@ h3.h3-confirm {
   /*----NAV-DESKTOP----*/
   .collapse {
     order: -1; }
-  .fa-shopping-cart {
+  .cart-mobile {
     margin-right: 100px; }
   .logo {
     order: -1; }
@@ -412,5 +418,4 @@ h3.h3-confirm {
     .footer-con .some-con {
       justify-content: center;
       margin: auto;
-      width: 25%; }
-  /** HERO DESKTOP HERO DESKTOP **/ }
+      width: 25%; } }

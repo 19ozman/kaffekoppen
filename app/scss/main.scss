@@ -334,6 +334,17 @@ p.prod-info {
 
 /** FOOTER FOOTER FOOTER **/
 
+/** CHECKOUT CHECKOUT CHECKOUT **/
+// .cart-container {
+// 	justify-content: center;
+// }
+.check-cart {
+	text-align: center;
+	font-size: 2rem;
+}
+
+/** CHECKOUT CHECKOUT CHECKOUT **/
+
 /** CONFIRMATION CONFIRMATION **/
 
 .check-icon {
@@ -355,18 +366,11 @@ p.prod-info {
 	color: black;
 }
 
-// .pisscontainer {
-// 	display: flex;
-// 	justify-content: center;
-// }
-
 .container-body {
-	// margin-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	// height: 100vh;
 	gap: 50px;
 	border: 1px solid red;
 }
@@ -404,13 +408,6 @@ h3.h3-confirm {
 	border: 1px solid yellow;
 }
 
-// .img-order-container {
-// 	display: flex;
-// 	justify-content: center;
-// 	border: solid 2px black;
-// 	border-radius: 5px;
-// }
-
 .order-pic {
 	width: 40%;
 	object-fit: contain;
@@ -434,11 +431,7 @@ h3.h3-confirm {
 	}
 	.wrap-order-img {
 		width: 33%;
-		// height: 250px;
 	}
-	// .img-order-container {
-	// 	height: 250px;
-	// }
 }
 
 /** QUERIES FÖR 1015 PX **/
@@ -449,7 +442,7 @@ h3.h3-confirm {
 	.collapse {
 		order: -1;
 	}
-	.fa-shopping-cart {
+	.cart-mobile {
 		margin-right: 100px;
 	}
 
@@ -538,20 +531,4 @@ h3.h3-confirm {
 			width: 25%;
 		}
 	}
-
-	/** HERO DESKTOP HERO DESKTOP **/
-
-	// .container-body {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	gap: 50px;
-	// 	align-items: center;
-	// }
-	// header {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	align-items: center;
-	// 	gap: 20px;
-	// 	font-family: "Crimson Text", serif;
-	// }
 }
