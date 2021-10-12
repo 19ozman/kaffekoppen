@@ -187,7 +187,8 @@ i {
   width: 30%;
 }
 
-p {
+p.prod-info {
+  text-align: left;
   font-size: 0.9em;
   padding: 20px;
 }

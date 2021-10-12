@@ -28,7 +28,7 @@
 					height="50"
 					alt="Kaffekoppens logga"
 				/>
-				<a href="#"><i id="checkout" class="fas fa-shopping-cart"></i></a>
+				<a href="checkout.html"><i id="checkout" class="fas fa-shopping-cart"></i></a>
 				<!-- <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></label></label> -->
 				<ul class="menu">
@@ -73,7 +73,7 @@
 		</section>
 		<section id="products">
 			<div class="container">
-				<h3 class="h3">Produkter</h3>
+				<h3 class="h3">SORTIMENT</h3>
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-grid">
@@ -85,7 +85,27 @@
 						<div class="product-content">
 							<h3 class="title"><a href="#">Landskaffe Brasilien</a></h3>
 							<div class="price">85:-</div>
-							<a class="add-to-cart" href="checkout.html"><i class="fas fa-shopping-basket"></i>Lägg i varukorg</a>
+							<!-- <a class="add-to-cart" href="checkout.html"><i class="fas fa-shopping-basket"></i>Lägg i varukorg</a> -->
+							<button type="button" class="btn btn-primary btn-sm float-lg-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+								Lägg i varukorg
+								</button>
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalLabel">Perfekt!</h5>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												Din vara har nu lagts till i varukorgen!
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fortsätt handla</button>
+												<a class="btn btn-secondary" role="button" href="checkout.html">Till varukorg</a>
+											</div>
+										</div>
+									</div>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -99,7 +119,7 @@
 						<div class="product-content">
 							<h3 class="title"><a href="#">Landskaffe Costa Rica</a></h3>
 							<div class="price">85:-</div>
-							<a class="add-to-cart" href="checkout.html"><i class="fas fa-shopping-basket"></i>Lägg i varukorg</a>
+							<a class="add-to-cart" href="#products"><i class="fas fa-shopping-basket"></i>Lägg i varukorg</a>
 						</div>
 					</div>
 				</div>
@@ -188,6 +208,7 @@
 				
 			  </footer>
 		</section>
+		<script src="/app/js/main.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
