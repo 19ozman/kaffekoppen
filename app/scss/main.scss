@@ -281,17 +281,18 @@ p.prod-info {
 
 .footer-con {
   width: 100%;
-  height: 70vh;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
   background-color: #f7d69c1f;
 
   .address-con,
   .contact-con,
   .some-con {
-    width: 40%;
+    width: 30%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -336,6 +337,17 @@ p.prod-info {
 }
 
 /** FOOTER FOOTER FOOTER **/
+
+/** CONFIRMATION CONFIRMATION **/
+
+.fa-2x {
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/** CONFIRMATION CONFIRMATION **/
 
 /** QUERIES FÖR 768 PX **/
 
