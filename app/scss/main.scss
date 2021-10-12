@@ -65,6 +65,64 @@ a {
 	}
 }
 
+/*----OM OSS----*/
+
+.about-us {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.text-about-us-con {
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		padding: 40px;
+		margin-left: 20px;
+		color: #5e454b;
+	}
+	.text-about-us {
+		border-left: 4px solid #cee5d0;
+		padding-left: 20px;
+	}
+
+	.img-about-us {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.img-about-us > img {
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+	.img-beans {
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+		position: relative;
+	}
+}
+
+#shop-om-oss {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 2rem;
+	border: 3px solid #f7d59c;
+	color: #f7d59c;
+	border-radius: 10px;
+	width: 40%;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	cursor: pointer;
+
+	&:hover {
+		background-color: #f7d59c;
+		color: #5e454b;
+	}
+}
+
 /** USP USP USP USP USP **/
 
 .usp-wrapper {
@@ -280,6 +338,17 @@ p.prod-info {
 
 /** FOOTER FOOTER FOOTER **/
 
+/** CONFIRMATION CONFIRMATION **/
+
+.fa-2x {
+	color: black;
+	justify-content: center;
+	text-align: center;
+	font-size: 2rem;
+}
+
+/** CONFIRMATION CONFIRMATION **/
+
 /** QUERIES FÖR 768 PX **/
 
 @media screen and (min-width: 768px) {
@@ -291,7 +360,7 @@ p.prod-info {
 	}
 }
 
-/** QUERIES FÖR 1024 PX **/
+/** QUERIES FÖR 1015 PX **/
 
 @media screen and (min-width: 1015px) {
 	/*----NAV-DESKTOP----*/

@@ -19,26 +19,79 @@
       <link rel="stylesheet" href="/app/css/main.css" />
 </head>
 <body>
+  <section id="om">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+       
+        <img
+          src="/app/assets/kaffekoppen.logga.png"
+          class="logo"
+          width="300"
+          height="50"
+          alt="Kaffeshoppens logga"
+        />
+      
+        <a href="#"><i id="checkout" class="fas fa-shopping-cart cart-mobile"></i></a>
+        
+        
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Hem <span class="sr-only">(current)</span></a
+            >
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#usp">Om oss</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="#products">Shoppa</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+         </div>
+        </div>
+    
+        
+        
+      </nav>
+      
+      </header>
+    
   <div class="container-body">
-<nav></nav>
-<header>
-    <i class="far fa-check-circle fa-3x"></i>
-    <h1>Tack för din beställning.</h1>
-    <h1>Ordernummer: #09745378</h1>
+    
+<section class="tack">
+    <i class="far fa-check-circle fa-3x check-icon"></i>
+    <h1 class="h1-rubrik">Tack för din beställning.</h1>
+    <h1 class="h1-rubrik">Ordernummer: #09745378</h1>
 
 
     <div class="order-box">
         <h2>Orderbekräftelse</h2>
-        <p>Tack för din beställning, härmed bekräftar vi att din order är lagd. Du kommer inom kort
+        <p class="textt">Tack för din beställning, härmed bekräftar vi att din order är lagd. Du kommer inom kort
            att få en Orderbekräftelse med ett bifogat kvitto skickat till din mail-adress. 
         </p>
     </div>
-    </header>
-    <h3>Din beställning:</h3>
+</section>
+    <h3 class="confirm">Din beställning:</h3>
     <div class="wrapperr">
         
         <div class="imgwrapper">
-          <p><strong>Landskaffe Brasillien</strong></p>
+          <p class="textt"><strong>Landskaffe Brasillien</strong></p>
           <div class="img-container">
             
             <img class="bild" src="/app/assets/brasilien.jpeg" alt="bild">
@@ -47,7 +100,7 @@
         </div>
 
         <div class="imgwrapper">
-          <p><strong>Landskaffe Etiopien</strong></p>
+          <p class="textt"><strong>Landskaffe Etiopien</strong></p>
            <div class="img-container">
             <img class="bild" src="/app/assets/etiopien.jpeg" alt="bild2">
         </div>
@@ -62,7 +115,7 @@
                 <th>Produkter</i></th>
                 <th>Antal</th>
                 <th>Pris</th>
-                <th><i class="fas fa-shopping-cart"></i></th>
+                <th> <i class="fas fa-shopping-cart fas-tack"></i></th>
               </tr>
             </thead>
             <tbody>
@@ -71,14 +124,14 @@
                 <td>1st</td>
                 
                 <td>85kr</i></td>
-                <td><i class="fas fa-coffee"></i></td>
+                <td> <i class="fas fa-coffee"></i></td>
               </tr>
               <tr>
                 <th scope="row">Landskaffe Brasillien</th>
                 <td>1st</td>
 
                 <td>85kr</i></td>
-                <td><i class="fas fa-coffee"></i></td>
+                <td> <i class="fas fa-coffee"></i></td>
               </tr>
             
             </tbody>
@@ -88,6 +141,30 @@
           </div>
        </div>
           
+       <footer>
+				<div id="contact" class="footer-con">
+				  <div class="address-con">
+					<h3>Adress</h3>
+					<p>Alingsåsvägen 56</p>
+					<p>121 48 Stockholm</p>
+				  </div>
+				  <div class="contact-con">
+					<h3>Kontakt</h3>
+					<p>info@kaffekoppen.se</p>
+					<p>076-060 44 18</p>
+				  </div>
+				  <div class="some-con">
+					<h3>Följ oss</h3>
+					<p><i class="fab fa-instagram"></i></ion-icon><a href="#">Instagram</a></p>
+					<p><i class="fab fa-facebook-f"></i></ion-icon><a href="#">Facebook</a></p>
+				  </div>
+				  <div class="b-footer">
+					<p>All Right Reserved by &copy;KAFFEKOPPEN 2021</p>
+				  </div>
+				</div>
+				
+			  </footer>
+		</section>
             
 </body>
 </html>
