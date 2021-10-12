@@ -50,7 +50,7 @@ a {
     font-size: 2rem;
     border: 3px solid #f7d59c;
     color: #f7d59c;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 40%;
     height: 50px;
     position: absolute;
@@ -380,6 +380,10 @@ p.prod-info {
     }
   }
 
+  .navbar {
+    width: 100%;
+  }
+
   .text-about-us {
     display: flex;
     justify-content: center;
@@ -410,7 +414,8 @@ p.prod-info {
   .slogan {
     font-size: 4rem !important;
   }
-  #shop-om-oss {
+  #shop-om-oss,
+  #shop {
     width: 20% !important;
   }
   #products {
