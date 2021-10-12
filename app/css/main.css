@@ -290,11 +290,14 @@ p.prod-info {
       margin-bottom: 20px; } }
 
 /** HERO DESKTOP HERO DESKTOP **/
+/* STYLING FÖR TACKSIDA*/
 .container-body {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  align-items: center; }
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 80px; }
 
 header {
   display: flex;
