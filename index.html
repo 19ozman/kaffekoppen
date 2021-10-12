@@ -20,28 +20,61 @@
 	</head>
 	<body>
 		<section id="om">
-			<nav class="nav">
-				<img
-					src="/app/assets/kaffekoppen.logga.png"
-					class="logo"
-					width="300"
-					height="50"
-					alt="Kaffekoppens logga"
-				/>
-				<a href="checkout.html"><i id="checkout" class="fas fa-shopping-cart"></i></a>
-				<!-- <input class="menu-btn" type="checkbox" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></label></label> -->
-				<ul class="menu">
-					<li><a href="index.html">Hem</a></li>
-					<li><a href="#usp">Om oss</a></li>
-					<li><a href="#products">Shoppa</a></li>
-					<li><a href="#contact">Kontakt</a></li>
-				</ul>
-			</nav>
-			<header class="hero">
-				<div class="slogan">Kaffe direkt hem till din dörr</div>
+			<header class="header">
+				<nav class="navbar navbar-expand-lg navbar-light ">
+				 
+					<img
+					  src="app/assets/kaffekoppen.logga.png"
+					  class="logo"
+					  width="300"
+					  height="50"
+					  alt="Kaffeshoppens logga"
+					/>
+				
+					<a href="#"><i id="checkout" class="fas fa-shopping-cart cart-mobile"></i></a>
+				  
+					
+				  <button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				  >
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+						  <li class="nav-item">
+							<a class="nav-link" href="#"
+							  >Hem <span class="sr-only">(current)</span></a
+							>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#usp">Om oss</a>
+						  </li>
+						  <li class="nav-item active">
+							<a class="nav-link" href="#products">Shoppa</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#contact">Kontakt</a>
+						  </li>
+						</ul>
+					 </div>
+					</div>
+		  
+					
+					
+				</nav>
+				
+			  </header>
+			<section class="hero">
+				<div class="slogan"> Kaffe direkt hem till din dörr </div>
 				<button id="shop">Beställ nu</button>
-			</header>
+			</sectionr>
 			<!-- <div class="om-wrapper"></div> -->
 		</section>
 		<section id="usp">
@@ -200,9 +233,10 @@
 					<p><i class="fab fa-instagram"></i></ion-icon><a href="#">Instagram</a></p>
 					<p><i class="fab fa-facebook-f"></i></ion-icon><a href="#">Facebook</a></p>
 				  </div>
-				  <div class="b-footer">
+				  
+				</div>
+				<div class="b-footer">
 					<p>All Right Reserved by &copy;KAFFEKOPPEN 2021</p>
-				  </div>
 				</div>
 				
 			  </footer>
@@ -213,5 +247,20 @@
 			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
 			crossorigin="anonymous"
 		></script>
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"
+	  ></script>
+	  <script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"
+	  ></script>
+	  <script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"
+	  ></script>
 	</body>
 </html>
