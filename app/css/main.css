@@ -108,7 +108,7 @@ a {
     background-color: #cee5d0;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 15px;
     padding: 3%;
     align-items: center;
     justify-content: center;
@@ -221,8 +221,9 @@ p.prod-info {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
-  background-color: #f7d69c1f; }
+  margin-top: 50px;
+  background-color: #f7d69c1f;
+  padding: 20px; }
   .footer-con .address-con,
   .footer-con .contact-con,
   .footer-con .some-con {
@@ -230,9 +231,9 @@ p.prod-info {
     display: flex;
     flex-direction: column;
     align-items: left;
+    text-align: center;
     line-height: 25px;
-    margin: 10px;
-    border: 1px solid red; }
+    margin: 20px; }
     .footer-con .address-con h3,
     .footer-con .contact-con h3,
     .footer-con .some-con h3 {
@@ -250,7 +251,7 @@ p.prod-info {
     .footer-con .some-con p,
     .footer-con .some-con a,
     .footer-con .some-con .fab {
-      font-size: 1.5rem;
+      font-size: 1rem;
       color: #5e454b; }
     .footer-con .address-con h3,
     .footer-con .contact-con h3,
@@ -278,8 +279,7 @@ p.prod-info {
     text-align: center;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 20px;
-    border: 1px solid red; }
+    margin-bottom: 20px; }
 
 /** FOOTER FOOTER FOOTER **/
 /** CHECKOUT CHECKOUT CHECKOUT **/
@@ -290,11 +290,11 @@ p.prod-info {
 /** CHECKOUT CHECKOUT CHECKOUT **/
 /** CONFIRMATION CONFIRMATION **/
 .check-icon {
-  margin-top: 10px; }
+  margin-top: 50px; }
 
 .table,
 .cartconfirm {
-  font-size: 1.4rem; }
+  font-size: 1.2rem; }
 
 .cartconfirm {
   color: black; }
@@ -307,8 +307,7 @@ p.prod-info {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
-  border: 1px solid red; }
+  gap: 50px; }
 
 .order-box {
   display: flex;
@@ -327,8 +326,7 @@ h3.h3-confirm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
-  border: 1px solid orange; }
+  width: 90%; }
 
 .wrap-order-img {
   display: flex;
@@ -336,12 +334,11 @@ h3.h3-confirm {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  width: 90%;
-  border: 1px solid yellow; }
+  width: 90%; }
 
 .order-pic {
   width: 40%;
-  object-fit: contain; }
+  object-fit: cover; }
 
 /** CONFIRMATION CONFIRMATION **/
 /** QUERIES FÖR 768 PX **/
@@ -353,7 +350,8 @@ h3.h3-confirm {
   .wrap-order {
     flex-direction: row;
     justify-content: center;
-    gap: 40px; }
+    gap: 10px;
+    width: 80%; }
   .wrap-order-img {
     width: 33%; } }
 
@@ -366,15 +364,15 @@ h3.h3-confirm {
     margin-right: 100px; }
   .logo {
     order: -1; }
-  ul {
+  ul.mynav {
     display: flex;
     flex-direction: row;
     margin-left: 30%;
     gap: 50px;
     order: -1; }
-    ul li {
+    ul.mynav li {
       font-size: 1.3rem; }
-      ul li a:hover {
+      ul.mynav li a:hover {
         border-bottom: 3px solid #cee5d0; }
   .navbar {
     width: 100%; }
@@ -412,6 +410,7 @@ h3.h3-confirm {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap; }
     .footer-con .address-con,
     .footer-con .contact-con,

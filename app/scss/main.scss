@@ -132,16 +132,12 @@ a {
 	.usp-box {
 		width: 97%;
 		background-color: rgb(206, 229, 208);
-
 		display: flex;
 		flex-direction: column;
-		gap: 2px;
-
+		gap: 15px;
 		padding: 3%;
-
 		align-items: center;
 		justify-content: center;
-
 		border-radius: 5px;
 		box-shadow: 1px -1px 5px gray;
 		font-size: 1.2rem;
@@ -273,25 +269,24 @@ p.prod-info {
 
 .footer-con {
 	width: 100%;
-	// height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 10px;
+	margin-top: 50px;
 	background-color: #f7d69c1f;
+	padding: 20px;
 
 	.address-con,
 	.contact-con,
 	.some-con {
 		width: 40%;
-		// height: 100px;
 		display: flex;
 		flex-direction: column;
 		align-items: left;
+		text-align: center;
 		line-height: 25px;
-		margin: 10px;
-		border: 1px solid red;
+		margin: 20px;
 
 		h3 {
 			width: 100%;
@@ -302,7 +297,7 @@ p.prod-info {
 		p,
 		a,
 		.fab {
-			font-size: 1.5rem;
+			font-size: 1rem;
 			color: #5e454b;
 		}
 
@@ -328,7 +323,6 @@ p.prod-info {
 		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 20px;
-		border: 1px solid red;
 	}
 }
 
@@ -348,12 +342,12 @@ p.prod-info {
 /** CONFIRMATION CONFIRMATION **/
 
 .check-icon {
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 .table,
 .cartconfirm {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 .cartconfirm {
@@ -372,7 +366,6 @@ p.prod-info {
 	align-items: center;
 	flex-direction: column;
 	gap: 50px;
-	border: 1px solid red;
 }
 
 .order-box {
@@ -395,7 +388,6 @@ h3.h3-confirm {
 	flex-direction: column;
 	align-items: center;
 	width: 90%;
-	border: 1px solid orange;
 }
 
 .wrap-order-img {
@@ -405,12 +397,11 @@ h3.h3-confirm {
 	justify-content: center;
 	flex-direction: column;
 	width: 90%;
-	border: 1px solid yellow;
 }
 
 .order-pic {
 	width: 40%;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 /** CONFIRMATION CONFIRMATION **/
@@ -427,7 +418,8 @@ h3.h3-confirm {
 	.wrap-order {
 		flex-direction: row;
 		justify-content: center;
-		gap: 40px;
+		gap: 10px;
+		width: 80%;
 	}
 	.wrap-order-img {
 		width: 33%;
@@ -450,7 +442,7 @@ h3.h3-confirm {
 		order: -1;
 	}
 
-	ul {
+	ul.mynav {
 		display: flex;
 		flex-direction: row;
 		margin-left: 30%;
@@ -521,6 +513,7 @@ h3.h3-confirm {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		text-align: center;
 		flex-wrap: wrap;
 
 		.address-con,
