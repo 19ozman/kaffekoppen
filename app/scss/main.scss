@@ -1,20 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap");
 
-* {
-	margin: 0;
+html,
+body {
+	font-size: 12pt;
+	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
-}
-
-html {
-	font-size: 12px;
-}
-
-body {
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Montserrat", sans-serif;
+	font-size: 12pt;
 	scroll-behavior: smooth;
 }
 
@@ -26,7 +19,7 @@ a {
 	box-shadow: 1px 1px 2px grey;
 }
 
-.fa-shopping-cart {
+.cart-mobile {
 	color: #cee5d0;
 	font-size: 2rem;
 	margin-right: 30px;
@@ -130,7 +123,6 @@ a {
 
 .usp-wrapper {
 	box-sizing: border-box;
-	// margin-top: 200px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -152,7 +144,6 @@ a {
 
 		border-radius: 5px;
 		box-shadow: 1px -1px 5px gray;
-		font-family: "Crimson Text", serif;
 		font-size: 1.2rem;
 
 		p {
@@ -170,16 +161,15 @@ a {
 h3.h3 {
 	text-align: center;
 	margin: 1em;
-	font-size: 1.7em;
+	font-size: 1.3rem;
 }
 
 i {
-	font-size: 1.3em;
+	font-size: 1.3rem;
 	margin-right: 2%;
 }
 
 .product-grid {
-	font-family: Raleway, sans-serif;
 	text-align: center;
 	padding: 0 0 30px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -198,7 +188,7 @@ i {
 .product-grid li a {
 	color: #fff;
 	background-color: #333;
-	font-size: 16px;
+	font-size: 1.2rem;
 	line-height: 40px;
 	text-align: center;
 	display: block;
@@ -211,7 +201,7 @@ i {
 }
 
 .product-grid .title {
-	font-size: 14px;
+	font-size: 1.2rem;
 	font-weight: 400;
 	letter-spacing: 0.5px;
 }
@@ -222,16 +212,15 @@ i {
 
 .product-grid .price {
 	color: #333;
-	font-size: 17px;
-	font-family: Montserrat, sans-serif;
+	font-size: 1.4rem;
 	font-weight: 700;
 	letter-spacing: 0.6px;
 	margin-bottom: 8px;
 	text-align: center;
 }
-.product-grid .add-to-cart {
+.product-grid {
 	color: #000;
-	font-size: 13px;
+	font-size: 0.9rem;
 	font-weight: 600;
 }
 
@@ -284,7 +273,7 @@ p.prod-info {
 
 .footer-con {
 	width: 100%;
-	height: 400px;
+	// height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -295,13 +284,14 @@ p.prod-info {
 	.address-con,
 	.contact-con,
 	.some-con {
-		width: 30%;
-		height: 100px;
+		width: 40%;
+		// height: 100px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: left;
 		line-height: 25px;
 		margin: 10px;
+		border: 1px solid red;
 
 		h3 {
 			width: 100%;
@@ -333,9 +323,12 @@ p.prod-info {
 	.b-footer {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		text-align: center;
 		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 20px;
+		border: 1px solid red;
 	}
 }
 
@@ -343,11 +336,84 @@ p.prod-info {
 
 /** CONFIRMATION CONFIRMATION **/
 
-.fa-2x {
+.check-icon {
+	margin-top: 10px;
+}
+
+.table,
+.cartconfirm {
+	font-size: 1.4rem;
+}
+
+.cartconfirm {
 	color: black;
+	// justify-content: center;
+	// text-align: center;
+}
+
+.fas-conf-cart {
+	color: black;
+}
+
+// .pisscontainer {
+// 	display: flex;
+// 	justify-content: center;
+// }
+
+.container-body {
+	// margin-top: 10px;
+	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	// height: 100vh;
+	gap: 50px;
+	border: 1px solid red;
+}
+
+.order-box {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border-radius: 5px;
+	gap: 10px;
+	padding: 50px 50px;
+	background-color: rgb(206, 229, 208);
+	font-size: 1.2rem;
+}
+
+h3.h3-confirm {
 	text-align: center;
-	font-size: 2rem;
+}
+
+.wrap-order {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	border: 1px solid orange;
+}
+
+.wrap-order-img {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid yellow;
+}
+
+// .img-order-container {
+// 	display: flex;
+// 	justify-content: center;
+// 	border: solid 2px black;
+// 	border-radius: 5px;
+// }
+
+.order-pic {
+	width: 40%;
+	object-fit: contain;
 }
 
 /** CONFIRMATION CONFIRMATION **/
@@ -361,6 +427,18 @@ p.prod-info {
 	.usp-box {
 		width: 33%;
 	}
+	.wrap-order {
+		flex-direction: row;
+		justify-content: center;
+		gap: 40px;
+	}
+	.wrap-order-img {
+		width: 33%;
+		// height: 250px;
+	}
+	// .img-order-container {
+	// 	height: 250px;
+	// }
 }
 
 /** QUERIES FÖR 1015 PX **/
@@ -463,70 +541,17 @@ p.prod-info {
 
 	/** HERO DESKTOP HERO DESKTOP **/
 
-	.container-body {
-		display: flex;
-		flex-direction: column;
-		gap: 50px;
-		align-items: center;
-	}
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 20px;
-		font-family: "Crimson Text", serif;
-	}
-
-	.order-box {
-		width: 90%;
-		border-radius: 5px;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-
-		padding: 50px 50px;
-		background-color: rgb(206, 229, 208);
-
-		font-family: "Crimson Text", serif;
-		font-size: 1.2rem;
-	}
-	h3 {
-		text-align: center;
-		font-family: "Crimson Text", serif;
-	}
-	.wrapperr {
-		width: 90%;
-		display: flex;
-		flex-direction: column;
-		gap: 40px;
-		align-items: center;
-	}
-	.imgwrapper {
-		width: 90%;
-		text-align: center;
-	}
-	.img-container {
-		border: solid 2px black;
-		border-radius: 5px;
-	}
-	.bild {
-		object-fit: contain;
-		width: 100%;
-		height: 100%;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.wrapperr {
-		flex-direction: row;
-		justify-content: center;
-		gap: 40px;
-	}
-	.imgwrapper {
-		width: 33%;
-		height: 250px;
-	}
-}
-.img-container {
-	height: 250px;
+	// .container-body {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	gap: 50px;
+	// 	align-items: center;
+	// }
+	// header {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	align-items: center;
+	// 	gap: 20px;
+	// 	font-family: "Crimson Text", serif;
+	// }
 }

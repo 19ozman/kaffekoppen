@@ -25,25 +25,52 @@
 	</head>
 	<body>
 		<section id="om">
-			<nav class="nav">
-				<img
-					src="/app/assets/kaffekoppen.logga.png"
-					class="logo"
-					width="300"
-					height="50"
-					alt="Kaffekoppens logga"
-				/>
-				<a href="/checkout.html"><i id="checkout" class="fas fa-shopping-cart"></i></a>
-				<ul class="menu">
-					<li><a href="/index.html">Hem</a></li>
-					<li><a href="/index.html#usp">Om oss</a></li>
-					<li><a href="/index.html#products">Shoppa</a></li>
-					<li><a href="/index.html#contact">Kontakt</a></li>
-				</ul>
-			</nav>
+			<header class="header">
+				<nav class="navbar navbar-expand-lg navbar-light ">
+				 
+					<img
+					  src="/app/assets/kaffekoppen.logga.png"
+					  class="logo"
+					  width="300"
+					  height="50"
+					  alt="Kaffeshoppens logga"
+					/>
+					<a href="#"><i id="checkout" class="fas fa-shopping-cart cart-mobile"></i></a>
+				  <button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				  >
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+						  <li class="nav-item">
+							<a class="nav-link" href="/index.html"
+							  >Hem <span class="sr-only">(current)</span></a
+							>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="/app/html/om.html">Om oss</a>
+						  </li>
+						  <li class="nav-item active">
+							<a class="nav-link" href="/index.html#products">Shoppa</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="/index.html#contact">Kontakt</a>
+						  </li>
+						</ul>
+					 
+					</div>
+				</nav>
+			  </header>
 		</section>
 			<div class="products-info-container">
-				<a class="arrow" href="index.html#products">
+				<a class="arrow" href="/index.html#products">
 					<i class="fas fa-arrow-alt-circle-left"></i>
 				</a>
 			<div class="row justify-content-center">
