@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	scroll-behavior: smooth;
 }
 
 a {
@@ -69,8 +70,7 @@ a {
 	}
 }
 
-// .om-wrapper {
-// }
+/** USP USP USP USP USP **/
 
 .usp-wrapper {
 	box-sizing: border-box;
@@ -107,113 +107,192 @@ a {
 	}
 }
 
-#products {
-	.prod-card-wrap {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		padding: 2%;
-		flex: 1 94%;
-		background-color: #ffe9d1;
-		gap: 30px;
-	}
+/** USP USP USP USP USP **/
 
-	.prod-card {
-		display: flex;
-		flex-direction: column;
-		background-color: #fff;
-		padding: 2%;
-		flex: 1 94%;
-		text-align: center;
-		align-items: center;
-		border-radius: 2px;
-	}
+/** PRODUKTER PRODUKTER PRODUKTER **/
 
-	.prod-image img {
-		max-width: 80%;
-	}
-
-	.prod-info {
-		display: flex;
-		flex-direction: row;
-		margin-top: 10px;
-		width: 70%;
-		background-color: #fff;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	i {
-		margin-left: 5%;
-	}
-
-	a {
-		color: #404040;
-	}
-
-	.fas {
-		font-size: 1.4em;
-		margin-left: 10%;
-	}
+h3.h3 {
+	text-align: center;
+	margin: 1em;
+	font-size: 1.7em;
 }
 
-#products-html {
+i {
+	font-size: 1.3em;
+	margin-right: 2%;
+}
+
+.product-grid {
+	font-family: Raleway, sans-serif;
+	text-align: center;
+	padding: 0 0 30px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.product-grid .product-image {
+	position: relative;
+}
+
+.product-grid .product-image img {
+	width: 100%;
+}
+
+.product-grid li a {
+	color: #fff;
+	background-color: #333;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+// .product-grid li a:hover {
+// 	color: #fff;
+// 	background-color: #ef5777;
+// }
+
+.product-grid .product-content {
+	background-color: #fff;
+	text-align: center;
+}
+
+.product-grid .title {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.product-grid .title a {
+	color: #828282;
+}
+
+// .product-grid a:hover {
+// 	color: #ef5777;
+// }
+
+.product-grid .price {
+	color: #333;
+	font-size: 17px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.product-grid .add-to-cart {
+	color: #000;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/** PRODUKTER PRODUKTER PRODUKTER **/
+
+/** PRODUKTSIDA PRODUKTSIDA PRODUKTSIDA **/
+
+.fa-arrow-alt-circle-left,
+a.arrow {
+	color: grey;
+	font-size: 1.2em;
+	margin: 20px;
+	position: relative;
+}
+
+h3.h3-info {
+	text-align: left;
+	margin-top: 30px;
+	padding: 10px;
+	margin-bottom: 2px;
+}
+
+p.prod-info {
+	text-align: left;
+	font-size: 0.9em;
+	padding: 10px;
+	margin: 1px;
+	line-height: 1.5em;
+}
+
+.products-grid-info {
+	font-family: Raleway, sans-serif;
+	text-align: center;
+	padding: 0 0 20px;
+	position: relative;
+	margin: 30px;
+}
+
+.btn {
+	margin: 10px;
+}
+
+.pic-info {
+	width: 25%;
+}
+
+/** PRODUKTSIDA PRODUKTSIDA PRODUKTSIDA **/
+
+/** FOOTER FOOTER FOOTER **/
+
+.footer-con {
+	width: 100%;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
-	box-sizing: border-box;
-	justify-content: center;
 	align-items: center;
-	margin-top: 5%;
+	justify-content: center;
+	margin-top: 10px;
+	background-color: #f7d69c1f;
 
-	// .prod-info-bildtext {
-	// 	display: flex;
-	// 	justify-content: center;
-	// }
-
-	.prod-bild-wrap {
-		display: flex;
-		// flex-wrap: column-wrap;
-		justify-content: center;
-		padding: 4%;
-		width: 88%;
-		flex: 1 20%;
-	}
-
-	.prod-text-wrap {
+	.address-con,
+	.contact-con,
+	.some-con {
+		width: 30%;
+		height: 100px;
 		display: flex;
 		flex-direction: column;
-		margin-left: 2%;
-	}
+		align-items: center;
+		line-height: 25px;
+		margin: 10px;
 
-	.cart-container {
+		h3 {
+			width: 100%;
+			text-align: center;
+		}
+
+		h3,
+		p,
+		a,
+		.fab {
+			font-size: 1.5rem;
+			color: #5e454b;
+		}
+
+		h3 {
+			color: #f7d59c;
+		}
+
+		p,
+		a,
+		.fab {
+			color: #5e454b;
+		}
+		.fab {
+			text-align: start;
+			margin-right: 10px;
+		}
+	}
+	.b-footer {
 		display: flex;
 		justify-content: center;
-		padding: 10px;
-		border: 1px solid red;
-		width: 40%;
-		height: 35%;
-		background-color: #ffffff;
-		border-radius: 20px;
-		box-shadow: 0px 25px 40px #1687d933;
-	}
-
-	img.respons {
-		float: left;
-		width: 40%;
-	}
-
-	p {
-		font-size: 0.8rem;
-		white-space: pre-line;
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
 	}
 }
 
-.footer-wrapper {
-	border: 1px solid black;
-	width: 50px;
-	height: 50px;
-}
+/** FOOTER FOOTER FOOTER **/
 
 /** QUERIES FÖR 768 PX **/
 
@@ -224,18 +303,9 @@ a {
 	.usp-box {
 		width: 33%;
 	}
-	#products {
-		.prod-card {
-			flex: 1 44%;
-		}
-
-		.prod-card-wrapper {
-			flex: 1 44%;
-		}
-	}
 }
 
-/** QUERIES FÖR PRODUKTER **/
+/** QUERIES FÖR 1024 PX **/
 
 @media screen and (min-width: 1024px) {
 	/*----NAV-DESKTOP----*/
@@ -261,7 +331,9 @@ a {
 		}
 	}
 
-	/*----HERO-DESKTOP----*/
+	/** QUERIES FÖR 1024 PX **/
+
+	/** HERO DESKTOP HERO DESKTOP **/
 
 	.slogan {
 		font-size: 4rem !important;
@@ -278,80 +350,26 @@ a {
 			flex: 1 26%;
 		}
 	}
+
+	.footer-con {
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+
+		.address-con,
+		.contact-con,
+		.some-con {
+			justify-content: center;
+			padding: 20px;
+		}
+		.b-footer {
+			margin-bottom: 20px;
+		}
+	}
 }
 
-.container-body{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
-}
-header{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    font-family: "Crimson Text", serif;
-
-}
-
-.order-box{
-    width: 90%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    padding: 50px 50px;
-    background-color: rgb(206, 229, 208);
-
-    font-family: "Crimson Text", serif;
-    font-size: 1.2rem;
-
-}
-h3{
-    text-align: center;
-    font-family: "Crimson Text", serif;
-}
-.wrapperr{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-}
-.imgwrapper{
-    width: 90%;
-    text-align: center;
-}
-.img-container{
-   
-
-    border: solid 2px black;
-    border-radius: 5px;
-}
-.bild{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-
-
-@media screen and (min-width: 768px) {
-    .wrapperr {
-      flex-direction: row;
-      justify-content: center;
-      gap: 40px;
-    
-    
-}
-.imgwrapper{
-    width: 33%;
-    height: 250px;
-}
-}
-.img-container{
-    height: 250px;
-}
-    
+/** HERO DESKTOP HERO DESKTOP **/
