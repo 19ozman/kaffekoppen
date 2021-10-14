@@ -14,12 +14,20 @@ a {
   text-decoration: none; }
 
 .header {
-  box-shadow: 1px 1px 2px grey; }
+  box-shadow: 1px 1px 2px grey;
+  grid-area: 50px; }
+  .header .navbar {
+    width: 100% !important; }
+  .header .nav-link {
+    letter-spacing: 2px;
+    text-transform: uppercase; }
 
 .cart-mobile {
-  color: #cee5d0;
-  font-size: 2rem;
-  margin-right: 30px; }
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem; }
+
+.cart-mobile:hover {
+  color: rgba(0, 0, 0, 0.7); }
 
 .hero {
   height: 100vh;
@@ -29,22 +37,34 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   position: relative; }
   .hero .slogan {
     color: #f7d59c;
-    font-size: 2.5rem; }
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 2px;
+    line-height: 35px; }
+  .hero .btn-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    text-decoration: none;
+    position: absolute;
+    top: 60%; }
   .hero #shop {
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 10px;
     border: 3px solid #f7d59c;
     color: #f7d59c;
     border-radius: 10px;
-    width: 40%;
-    height: 50px;
-    position: absolute;
-    top: 75%;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 1.5rem;
+    letter-spacing: 2px; }
     .hero #shop:hover {
       background-color: #f7d59c;
       color: #5e454b;
@@ -53,15 +73,15 @@ a {
 /*----OM OSS----*/
 .about-us {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
   .about-us .text-about-us-con {
-    font-size: 2rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
     margin-left: 20px;
     color: #5e454b; }
   .about-us .text-about-us {
@@ -81,12 +101,14 @@ a {
 
 #shop-om-oss {
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 10px;
   border: 3px solid #f7d59c;
   color: #f7d59c;
   border-radius: 10px;
-  width: 40%;
-  height: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -251,7 +273,7 @@ p.prod-info {
     .footer-con .some-con p,
     .footer-con .some-con a,
     .footer-con .some-con .fab {
-      font-size: 1rem;
+      font-size: 0.8rem;
       color: #5e454b; }
     .footer-con .address-con h3,
     .footer-con .contact-con h3,
@@ -278,8 +300,7 @@ p.prod-info {
     align-items: center;
     text-align: center;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 20px; }
+    font-size: 0.8rem; }
 
 /** FOOTER FOOTER FOOTER **/
 /** CHECKOUT CHECKOUT CHECKOUT **/
@@ -353,27 +374,48 @@ h3.h3-confirm {
     gap: 10px;
     width: 80%; }
   .wrap-order-img {
-    width: 33%; } }
+    width: 33%; }
+  .slogan {
+    font-size: 1.5rem !important;
+    width: 50%; }
+  .logo {
+    width: 300px;
+    height: 50px; }
+  .cart-mobile {
+    font-size: 1.7rem; } }
+
+/** QUERIES FÖR 768 PX **/
+/** QUERIES FÖR 992 PX **/
+@media screen and (min-width: 992px) {
+  .collapse {
+    order: -1; }
+  .logo {
+    order: -1;
+    margin-left: 5px; }
+  ul.mynav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    order: -1;
+    gap: 20px; }
+    ul.mynav li {
+      font-size: 1.3rem; }
+  .nav-link {
+    font-size: 1rem; } }
 
 /** QUERIES FÖR 1015 PX **/
 @media screen and (min-width: 1015px) {
-  /*----NAV-DESKTOP----*/
   .collapse {
     order: -1; }
-  .cart-mobile {
-    margin-right: 100px; }
   .logo {
     order: -1; }
   ul.mynav {
     display: flex;
     flex-direction: row;
-    margin-left: 30%;
-    gap: 50px;
     order: -1; }
     ul.mynav li {
       font-size: 1.3rem; }
-      ul.mynav li a:hover {
-        border-bottom: 3px solid #cee5d0; }
   .navbar {
     width: 100%; }
   .text-about-us {
@@ -392,13 +434,12 @@ h3.h3-confirm {
   .img-beans {
     display: flex;
     justify-content: flex-end; }
-  /** QUERIES FÖR 1015 PX **/
-  /** HERO DESKTOP HERO DESKTOP **/
   .slogan {
-    font-size: 4rem !important; }
+    font-size: 1.5rem !important; }
   #shop-om-oss,
   #shop {
-    width: 20% !important; }
+    font-size: 1.5rem;
+    padding: 5px; }
   #products .prod-card {
     flex: 1 26%; }
   #products .prod-card-wrapper {
@@ -418,3 +459,5 @@ h3.h3-confirm {
       justify-content: center;
       margin: auto;
       width: 25%; } }
+
+/** QUERIES FÖR 1015 PX **/
