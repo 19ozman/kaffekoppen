@@ -62,7 +62,8 @@ a {
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5rem;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    top: 60%; }
     .hero #shop:hover {
       background-color: #f7d59c;
       border: 3px solid #f7d59c;
