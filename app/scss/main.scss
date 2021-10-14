@@ -369,68 +369,71 @@ p.prod-info {
 
 /** CONFIRMATION CONFIRMATION **/
 
-.check-icon {
-  margin-top: 50px;
-}
-
-.table,
-.cartconfirm {
-  font-size: 1.2rem;
-}
-
-.cartconfirm {
-  color: black;
-  // justify-content: center;
-  // text-align: center;
-}
-
-.fas-conf-cart {
-  color: black;
-}
-
 .container-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 50px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 50px;
+  
+
+	.check-icon {
+  	margin-top: 50px;
+	}
+
+	.table,{
+  	font-size: 1rem;
+	
+
+	.cartconfirm {
+  	color: black;
+ 
+	}
+
+	.fas-conf-cart {
+  	color: black;
+	}
 }
 
-.order-box {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  border-radius: 5px;
-  gap: 10px;
-  padding: 50px 50px;
-  background-color: rgb(206, 229, 208);
-  font-size: 1.2rem;
-}
+	.order-box {
+  	display: flex;
+	flex-direction: column;
+	width: 90%;
+ 	 border-radius: 5px;
+ 	 gap: 10px;
+ 	 padding: 50px 50px;
+ 	 background-color: rgb(206, 229, 208);
+  	font-size: 1.2rem;
+	}
 
-h3.h3-confirm {
-  text-align: center;
-}
+	h3.h3-confirm {
+  	text-align: center;
+	}
 
-.wrap-order {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-}
+	.wrap-order {
+  	display: flex;
+  	flex-direction: column;
+ 	 gap: 40px;
+ 	 align-items: center;
+ 	 width: 90%;
 
-.wrap-order-img {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 90%;
-}
 
-.order-pic {
-  width: 40%;
-  object-fit: cover;
-}
+		.wrap-order-img {
+  		display: flex;
+  		align-items: center;
+  		text-align: center;
+  		justify-content: center;
+  		flex-direction: column;
+  		width: 90%;
+		}
+
+		.order-pic {
+  		width: 40%;
+  		object-fit: cover;
+		}
+		}
+	}
 
 /** CONFIRMATION CONFIRMATION **/
 
@@ -443,6 +446,8 @@ h3.h3-confirm {
   .usp-box {
     width: 33%;
   }
+  .container-body{
+
   .wrap-order {
     flex-direction: row;
     justify-content: center;
@@ -452,6 +457,7 @@ h3.h3-confirm {
   .wrap-order-img {
     width: 33%;
   }
+}
 
   .slogan {
     font-size: 1.5rem !important;

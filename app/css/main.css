@@ -310,56 +310,47 @@ p.prod-info {
 
 /** CHECKOUT CHECKOUT CHECKOUT **/
 /** CONFIRMATION CONFIRMATION **/
-.check-icon {
-  margin-top: 50px; }
-
-.table,
-.cartconfirm {
-  font-size: 1.2rem; }
-
-.cartconfirm {
-  color: black; }
-
-.fas-conf-cart {
-  color: black; }
-
 .container-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px; }
-
-.order-box {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  border-radius: 5px;
-  gap: 10px;
-  padding: 50px 50px;
-  background-color: #cee5d0;
-  font-size: 1.2rem; }
-
-h3.h3-confirm {
-  text-align: center; }
-
-.wrap-order {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%; }
-
-.wrap-order-img {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 90%; }
-
-.order-pic {
-  width: 40%;
-  object-fit: cover; }
+  .container-body .check-icon {
+    margin-top: 50px; }
+  .container-body .table {
+    font-size: 1rem; }
+    .container-body .table .cartconfirm {
+      color: black; }
+    .container-body .table .fas-conf-cart {
+      color: black; }
+  .container-body .order-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 50px 50px;
+    background-color: #cee5d0;
+    font-size: 1.2rem; }
+  .container-body h3.h3-confirm {
+    text-align: center; }
+  .container-body .wrap-order {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 90%; }
+    .container-body .wrap-order .wrap-order-img {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%; }
+    .container-body .wrap-order .order-pic {
+      width: 40%;
+      object-fit: cover; }
 
 /** CONFIRMATION CONFIRMATION **/
 /** QUERIES FÖR 768 PX **/
@@ -368,12 +359,12 @@ h3.h3-confirm {
     flex-direction: row; }
   .usp-box {
     width: 33%; }
-  .wrap-order {
+  .container-body .wrap-order {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
     width: 80%; }
-  .wrap-order-img {
+  .container-body .wrap-order-img {
     width: 33%; }
   .slogan {
     font-size: 1.5rem !important;
