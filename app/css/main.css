@@ -39,7 +39,7 @@ a {
   flex-direction: column;
   position: relative; }
   .hero .slogan {
-    color: #f7d59c;
+    color: white;
     font-size: 1.3rem;
     text-align: center;
     padding: 50px;
