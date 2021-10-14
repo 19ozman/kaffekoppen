@@ -8,7 +8,7 @@
 	// Loop over them and prevent submission
 	Array.prototype.slice.call(forms).forEach(function (form) {
 		form.addEventListener(
-			"confirm-btn",
+			"submit",
 			function (event) {
 				if (!form.checkValidity()) {
 					event.preventDefault();
@@ -21,9 +21,5 @@
 		);
 	});
 })();
-// var myModal = document.getElementById("myModal");
-// var myInput = document.getElementById("myInput");
-
-// myModal.addEventListener("shown.bs.modal", function () {
-// 	myInput.focus();
-// });
+var myModal = document.getElementById("myModal");
+var myInput = document.getElementById("myInput");
