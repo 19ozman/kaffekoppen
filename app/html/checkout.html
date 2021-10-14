@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <script
-      src="https://kit.fontawesome.com/4bc016b404.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <title>KAFFEKOPPEN</title>
-    <link rel="stylesheet" href="/app/css/main.css" />
-  </head>
-  <body>
-    <section id="om">
-      <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <img
-            src="/app/assets/kaffekoppen.logga.png"
-            class="logo"
-            width="100"
-            height="16"
-            alt="Kaffeshoppens logga"
-          />
-          <div class="d-flex justify-content-end">
-						<a href="#"><i id="checkout" class="fas fa-shopping-cart cart-mobile"></i></a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KAFFEKOPPEN</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+		rel="stylesheet" 
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+		crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		crossorigin="anonymous"/>
+		<script src="https://kit.fontawesome.com/4bc016b404.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="/app/css/main.css" />
+	</head>
+	<body>
+		<!-- NAV - NAV - NAV -->
+		<section id="om">
+			<header class="header">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<img
+					  src="/app/assets/kaffekoppen.logga.png"
+					  class="logo"
+					  width="100"
+					  height="16"
+					  alt="Kaffeshoppens logga"
+					/>
+					<div class="d-flex justify-content-end">
+						<a href="/app/html/checkout.html"><i id="checkout" class="fas fa-shopping-cart cart-mobile"></i></a>
 					</div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="mynav navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/index.html">Hem</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/app/html/om.html">Om oss</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/index.html#products">Shoppa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Kontakt</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </section>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+				  	</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="mynav navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html">Hem</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/app/html/om.html">Om oss</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#products">Shoppa</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Kontakt</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			  </header>
+		</section>
+		<!-- NAV - NAV - NAV -->
     <div class="container container-fluid">
       <div class="py-5 justify-content-center text-center">
         <i class="fas fa-shopping-cart check-cart"></i>
@@ -79,7 +74,7 @@
         <div class="col-md-4 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Din varukorg</span>
-            <span class="badge badge-secondary badge-pill">3</span>
+            <span class="badge badge-secondary badge-pill">2</span>
           </h4>
           <ul class="list-group mb-3">
             <li
@@ -341,7 +336,7 @@
                 <div class="invalid-feedback">Ett CVC-nummer måste anges.</div>
               </div>
             </div>
-           <button class="btn btn-primary btn-lg btn-block" type="submit">lägg order</button>
+           <button class="confirm-btn btn btn-primary btn-lg btn-block" type="submit">Lägg order</button>
           </form>
         </div>
       </div>
@@ -374,43 +369,28 @@
         
         </footer>
       </section>
-    <script src="../js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
-      integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    
+		<!-- SCRIPTS - SCRIPTS - SCRIPTS -->
+		<script src="/app/js/main.js"></script>
+		<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"
+		></script>
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"
+		></script>
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"
+		></script>
+		<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"
+		></script>
+		<!-- SCRIPTS - SCRIPTS - SCRIPTS -->
   </body>
 </html>

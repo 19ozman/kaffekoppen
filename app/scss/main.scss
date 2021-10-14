@@ -263,18 +263,19 @@ a.arrow {
 	position: relative;
 }
 
-h3.h3-info {
+h4.h4-info {
 	text-align: left;
 	margin-top: 30px;
 	padding: 10px;
 	margin-bottom: 2px;
+	margin-top: 10px;
 }
 
 p.prod-info {
 	text-align: left;
 	font-size: 0.9em;
 	padding: 10px;
-	margin: 1px;
+	margin-bottom: 10px;
 	line-height: 1.5em;
 }
 
@@ -284,10 +285,6 @@ p.prod-info {
 	padding: 0 0 20px;
 	position: relative;
 	margin: 30px;
-}
-
-.btn {
-	margin: 10px;
 }
 
 .pic-info {
@@ -503,6 +500,8 @@ h3.h3-rubrik {
 		font-size: 1rem;
 	}
 }
+
+/** QUERIES FÖR 992 PX **/
 
 /** QUERIES FÖR 1015 PX **/
 
