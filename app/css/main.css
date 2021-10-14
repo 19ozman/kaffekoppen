@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap");
 html,
 body {
-  font-size: 12pt;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -57,7 +56,6 @@ a {
     top: 60%; }
   .hero #shop {
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 1rem;
     padding: 10px;
     border: 3px solid #f7d59c;
     color: #f7d59c;
@@ -70,7 +68,7 @@ a {
       color: #5e454b;
       transition: 0.2s ease-in; }
 
-/*----OM OSS----*/
+/** OM OSS - OM OSS - OM OSS **/
 .about-us {
   height: 100vh;
   width: 100vw;
@@ -101,7 +99,6 @@ a {
 
 #shop-om-oss {
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 1rem;
   padding: 10px;
   border: 3px solid #f7d59c;
   color: #f7d59c;
@@ -117,6 +114,7 @@ a {
     background-color: #f7d59c;
     color: #5e454b; }
 
+/** OM OSS - OM OSS - OM OSS **/
 /** USP USP USP USP USP **/
 .usp-wrapper {
   box-sizing: border-box;
@@ -136,37 +134,36 @@ a {
     justify-content: center;
     border-radius: 5px;
     box-shadow: 1px -1px 5px gray;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
     .usp-wrapper .usp-box p {
-      line-height: 30px;
+      line-height: 22px;
       margin-bottom: 0px;
       text-align: center; }
 
 /** USP USP USP USP USP **/
-/** PRODUKTER PRODUKTER PRODUKTER **/
-h3.h3 {
+/** PRODUKTER - PRODUKTER - PRODUKTER **/
+#products .mybtn {
+  margin-bottom: 15px; }
+
+#products h3.h3 {
   text-align: center;
   margin: 1em;
   font-size: 1.3rem; }
 
-i {
-  font-size: 1.3rem;
-  margin-right: 2%; }
-
-.product-grid {
+#products .product-grid {
   text-align: center;
   padding: 0 0 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
   margin-bottom: 30px; }
 
-.product-grid .product-image {
+#products .product-grid .product-image {
   position: relative; }
 
-.product-grid .product-image img {
+#products .product-grid .product-image img {
   width: 100%; }
 
-.product-grid li a {
+#products .product-grid li a {
   color: #fff;
   background-color: #333;
   font-size: 1.2rem;
@@ -175,19 +172,19 @@ i {
   display: block;
   position: relative; }
 
-.product-grid .product-content {
+#products .product-grid .product-content {
   background-color: #fff;
   text-align: center; }
 
-.product-grid .title {
+#products .product-grid .title {
   font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 0.5px; }
 
-.product-grid .title a {
+#products .product-grid .title a {
   color: #828282; }
 
-.product-grid .price {
+#products .product-grid .price {
   color: #333;
   font-size: 1.4rem;
   font-weight: 700;
@@ -195,7 +192,7 @@ i {
   margin-bottom: 8px;
   text-align: center; }
 
-.product-grid {
+#products .product-grid {
   color: #000;
   font-size: 0.9rem;
   font-weight: 600; }
@@ -206,7 +203,8 @@ i {
 a.arrow {
   color: grey;
   font-size: 1.2em;
-  margin: 20px;
+  margin-left: 5px;
+  margin-top: 20px;
   position: relative; }
 
 h3.h3-info {
@@ -306,7 +304,8 @@ p.prod-info {
 /** CHECKOUT CHECKOUT CHECKOUT **/
 .check-cart {
   text-align: center;
-  font-size: 2rem; }
+  font-size: 1.5rem;
+  margin-bottom: 10px; }
 
 /** CHECKOUT CHECKOUT CHECKOUT **/
 /** CONFIRMATION CONFIRMATION **/
@@ -315,7 +314,7 @@ p.prod-info {
 
 .table,
 .cartconfirm {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .cartconfirm {
   color: black; }
