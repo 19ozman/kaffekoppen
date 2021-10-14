@@ -26,7 +26,8 @@ a {
   font-size: 1rem; }
 
 .cart-mobile:hover {
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.7);
+  transition: 0.2s ease-in; }
 
 .hero {
   height: 100vh;
@@ -101,8 +102,8 @@ a {
 #shop-om-oss {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  border: 3px solid #f7d59c;
-  color: #f7d59c;
+  border: 3px solid #5e454b;
+  color: whitesmoke;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1.5rem;
@@ -113,7 +114,8 @@ a {
   cursor: pointer; }
   #shop-om-oss:hover {
     background-color: #f7d59c;
-    color: #5e454b; }
+    color: #5e454b;
+    transition: 0.2s ease-in; }
 
 /** OM OSS - OM OSS - OM OSS **/
 /** USP USP USP USP USP **/
@@ -381,7 +383,7 @@ h3.h3-rubrik {
 @media screen and (min-width: 992px) {
   .collapse {
     order: -1; }
-  .logo {
+  .logo-a {
     order: -1;
     margin-left: 5px; }
   ul.mynav {
@@ -399,16 +401,6 @@ h3.h3-rubrik {
 /** QUERIES FÖR 992 PX **/
 /** QUERIES FÖR 1015 PX **/
 @media screen and (min-width: 1015px) {
-  .collapse {
-    order: -1; }
-  .logo {
-    order: -1; }
-  ul.mynav {
-    display: flex;
-    flex-direction: row;
-    order: -1; }
-    ul.mynav li {
-      font-size: 1.3rem; }
   .navbar {
     width: 100%; }
   .text-about-us {
@@ -429,10 +421,6 @@ h3.h3-rubrik {
     justify-content: flex-end; }
   .slogan {
     font-size: 1.5rem !important; }
-  #shop-om-oss,
-  #shop {
-    font-size: 1.5rem;
-    padding: 5px; }
   #products .prod-card {
     flex: 1 26%; }
   #products .prod-card-wrapper {
