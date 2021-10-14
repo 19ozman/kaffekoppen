@@ -55,6 +55,7 @@ a {
 		padding: 50px;
 		letter-spacing: 2px;
 		line-height: 35px;
+		// background-color: rgba(129, 126, 112, 0.6);
 	}
 
 	.btn-shop {
@@ -402,10 +403,10 @@ p.prod-info {
 	gap: 10px;
 	padding: 50px 50px;
 	background-color: rgb(206, 229, 208);
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
-h3.h3-confirm {
+h3.h3-rubrik {
 	text-align: center;
 }
 
@@ -414,12 +415,12 @@ h3.h3-confirm {
 	flex-direction: column;
 	align-items: center;
 	width: 90%;
+	gap: 40px;
 }
 
 .wrap-order-img {
 	display: flex;
 	align-items: center;
-	text-align: center;
 	justify-content: center;
 	flex-direction: column;
 	width: 90%;
