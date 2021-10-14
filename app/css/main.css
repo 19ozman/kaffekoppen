@@ -39,7 +39,7 @@ a {
   flex-direction: column;
   position: relative; }
   .hero .slogan {
-    color: white;
+    color: whitesmoke;
     font-size: 1.3rem;
     text-align: center;
     padding: 50px;
@@ -57,14 +57,15 @@ a {
   .hero #shop {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border: 3px solid #f7d59c;
-    color: #f7d59c;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5rem;
     letter-spacing: 2px; }
     .hero #shop:hover {
       background-color: #f7d59c;
+      border: 3px solid #f7d59c;
       color: #5e454b;
       transition: 0.2s ease-in; }
 
